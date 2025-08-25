@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="W_DailyRewards" representedClassName="W_DailyRewards" syncable="YES">
+        <attribute name="coin" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="createdTime" optional="YES" attributeType="String"/>
+        <attribute name="earn" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="W_PhotoModel" representedClassName="W_PhotoModel" syncable="YES">
+        <attribute name="alt" optional="YES" attributeType="String"/>
+        <attribute name="coin" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="createdTime" optional="YES" attributeType="String"/>
+        <attribute name="downloaded" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="height" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="id" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="landscape" optional="YES" attributeType="String"/>
+        <attribute name="large" optional="YES" attributeType="String"/>
+        <attribute name="large2x" optional="YES" attributeType="String"/>
+        <attribute name="liked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="medium" optional="YES" attributeType="String"/>
+        <attribute name="original" optional="YES" attributeType="String"/>
+        <attribute name="portrait" optional="YES" attributeType="String"/>
+        <attribute name="small" optional="YES" attributeType="String"/>
+        <attribute name="unlock" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="width" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+    </entity>
+    <entity name="W_RecentSearches" representedClassName="W_RecentSearches" syncable="YES">
+        <attribute name="createdTime" optional="YES" attributeType="String"/>
+        <attribute name="keyword" optional="YES" attributeType="String"/>
+    </entity>
+    <configuration name="Cloud">
+        <memberEntity name="W_DailyRewards"/>
+        <memberEntity name="W_PhotoModel"/>
+        <memberEntity name="W_RecentSearches"/>
+    </configuration>
+    <configuration name="Local">
+        <memberEntity name="W_DailyRewards"/>
+        <memberEntity name="W_PhotoModel"/>
+        <memberEntity name="W_RecentSearches"/>
+    </configuration>
+</model>
